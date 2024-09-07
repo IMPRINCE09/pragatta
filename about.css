@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.about_text{
+    position: absolute;
+    top: 50%;
+    /* bottom: 10px; */
+    height: 200px;
+    left: 400px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.217);
+    padding:10px
+
+}
+
+.text{
+    padding: 50px;
+}
+
+
+.contaner{
+    padding: 30px;
+}
+
+/* lab_img */
+
+.lab_img{
+    width: 100%;
+}
+
+/* img */
+h3{
+    text-align:center;
+}
+
+
+/* media */
+
+@media (max-width: 600px) {
+  
+  
+
+    .about_text{
+       
+        left: 0px;
+       top: 20%;
+    }
+    
+}
